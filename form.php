@@ -182,5 +182,10 @@
         <?php } ?>
 
 
+
+        <footer>
+            <center><b>Copyright Reksa Prayoga S</b></center>
+            <br>
+        </footer>
     </body>
 </html>
