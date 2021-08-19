@@ -95,30 +95,30 @@
         <form action="" method="POST">
             <h3><b>1.Identitas</b></h3>
             <label for="nama">Nama : </label>
-            <input type="text" name="nama" id="nama" placeholder="kiga">
+            <input type="text" name="nama" id="nama" placeholder="kiga" required>
             <label for="alamat">Alamat :</label>
             <textarea name="alamat" id="alamat"></textarea>
             
             <label for="tempat">Tempat / Tanggal Lahir : </label>
             <br>
             <span class="double">
-            <input style="flex:1;" type="text" name="tempat" id="tempat" placeholder="Bogor">
+            <input style="flex:1;" type="text" name="tempat" id="tempat" placeholder="Bogor" required>
 
-            <input style="flex:2;margin-left:10px;" type="date" name="ttl" id="ttl" >
+            <input style="flex:2;margin-left:10px;" type="date" name="ttl" id="ttl" required>
 
             </span>
 <br>
             <label>Asal perguruan tinggi :</label>
-            <input type="text" name="asal" placeholder="Institut Teknologi Bandung"/>
+            <input type="text" name="asal" placeholder="Institut Teknologi Bandung" required/>
            
             <label>Jurusan :</label>
-            <input type="text" name="jurusan" placeholder="Teknik Fisika" />
+            <input type="text" name="jurusan" placeholder="Teknik Fisika" required/>
             <label>Hp :</label>
             <br>
             <span class="double">
             <input style="flex:1;text-align:center;" value="+62" type="text" name="tempat" id="tempat" disabled>
 
-            <input style="flex:7;" type="text" placeholder="895331493506" name="hp" id="hp">
+            <input style="flex:7;" type="text" placeholder="895331493506" name="hp" id="hp" required>
 
             </span>
            <hr noshade>
@@ -128,14 +128,14 @@
             
             <h3><b>1.Motivasi</b></h3>
             <label for="pendapat">PENDAPAT DAN IMPIANMU TENTANG PENDIDIKAN INDONESIA :</label>
-            <textarea name="pendapat" id="pendapat"></textarea>
+            <textarea name="pendapat" id="pendapat" required></textarea>
             
             <label for="alasan">Alasan bergabung pada yayasan ini :</label>
-            <textarea name="alasan"></textarea>
+            <textarea name="alasan" required></textarea>
             
             <label for="harapan">Harapan setelah diterima :</label>
             <textarea name="harapan"></textarea>
-            <span style="font-size:15px;">*Silahkan kirim formulir ini ke test@gmail.com</span> 
+            <span style="font-size:15px;" required>*Silahkan kirim formulir ini ke test@gmail.com</span> 
             <br>
             <center> <input type="submit" name="proses" value="Proses"/></center>
            
