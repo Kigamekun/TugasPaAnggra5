@@ -126,7 +126,7 @@
 
             <!-- <textarea name="alamat">Masukan alamat ...</textarea> -->
             
-            <h3><b>1.Motivasi</b></h3>
+            <h3><b>2.Motivasi</b></h3>
             <label for="pendapat">PENDAPAT DAN IMPIANMU TENTANG PENDIDIKAN INDONESIA :</label>
             <textarea name="pendapat" id="pendapat" required></textarea>
             
