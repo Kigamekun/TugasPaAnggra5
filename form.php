@@ -108,15 +108,15 @@
 
             </span>
 <br>
-            <label>Asal perguruan tinggi :</label>
-            <input type="text" name="asal" placeholder="Institut Teknologi Bandung" required/>
+            <label for="asal">Asal perguruan tinggi :</label>
+            <input type="text" name="asal" id="asal" placeholder="Institut Teknologi Bandung" required/>
            
-            <label>Jurusan :</label>
-            <input type="text" name="jurusan" placeholder="Teknik Fisika" required/>
-            <label>Hp :</label>
+            <label for="jurusan">Jurusan :</label>
+            <input type="text" name="jurusan" id="jurusan" placeholder="Teknik Fisika" required/>
+            <label for="hp">Hp :</label>
             <br>
             <span class="double">
-            <input style="flex:1;text-align:center;" value="+62" type="text" name="tempat" id="tempat" disabled>
+            <input style="flex:1;text-align:center;" value="+62" type="text"  disabled>
 
             <input style="flex:7;" type="text" placeholder="895331493506" name="hp" id="hp" required>
 
@@ -131,10 +131,10 @@
             <textarea name="pendapat" id="pendapat" required></textarea>
             
             <label for="alasan">Alasan bergabung pada yayasan ini :</label>
-            <textarea name="alasan" required></textarea>
+            <textarea name="alasan" id="alasan" required></textarea>
             
             <label for="harapan">Harapan setelah diterima :</label>
-            <textarea name="harapan"></textarea>
+            <textarea name="harapan" id="harapan"></textarea>
             <span style="font-size:15px;" required>*Silahkan kirim formulir ini ke test@gmail.com</span> 
             <br>
             <center> <input type="submit" name="proses" value="Proses"/></center>
